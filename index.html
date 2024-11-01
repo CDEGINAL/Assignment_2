@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Multi-Function Utility</h1>
+
+    <!-- Reverse String Section -->
+    <div class="section">
+        <h2>Reverse String</h2>
+        <input type="text" id="reverseInput" placeholder="Enter a string">
+        <button onclick="reverseString()">Reverse</button>
+        <p id="reverseOutput"></p>
+    </div>
+
+    <!-- Palindrome Check Section -->
+    <div class="section">
+        <h2>Palindrome Checker</h2>
+        <input type="text" id="palindromeInput" placeholder="Enter a series of numbers">
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <p id="palindromeOutput"></p>
+    </div>
+
+    <!-- Tip Calculator Section -->
+    <div class="section">
+        <h2>Tip Calculator</h2>
+        <input type="number" id="subtotalInput" placeholder="Enter subtotal" step="0.01">
+        <input type="number" id="tipPercentageInput" placeholder="Enter tip percentage" step="0.01">
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <p id="tipOutput"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
